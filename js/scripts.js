@@ -65,10 +65,10 @@ function sendEmail() {
       Host: "smtp.gmail.com",
       Username: "ahmed.becirevic@stu.ibu.edu.ba",
       Password: "/",
-      To: "adi.lagumdzija@stu.ibu.edu.ba",
+      To: "basil.bosnjak@stu.ibu.edu.ba",
       From: "ahmed.becirevic@stu.ibu.edu.ba",
       Subject: "New person subscribed!",
-      Body: "New person has submitet their email: " + email,
+      Body: "New person has submited their email: " + email,
     })
       .then(function (message) {
         alert.style.display = "block"
